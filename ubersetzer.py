@@ -1,3 +1,4 @@
+import os
 import telebot
 from deep_translator import GoogleTranslator
 from langdetect import detect

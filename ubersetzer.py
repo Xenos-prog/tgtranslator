@@ -2,7 +2,7 @@ import telebot
 from deep_translator import GoogleTranslator
 from langdetect import detect
 
-TOKEN = "8884880812:AAGFI09YKnkX4JwEXgPMERq513RcKErxwSo"
+TOKEN = os.environ["TOKEN"]
 
 bot = telebot.TeleBot(TOKEN)
 
